@@ -13,3 +13,4 @@
 # Bit manipulation:
 1. DecimalToBinary: find remainder using num%2 and add to string then num/2.
 2. BinaryToDecimal: traverse from right to left, calculate base and add to the num.
+3. SwapTwoNum: swap two numbers uaing XOR as a^a = 0 -> a^b^a = b 
