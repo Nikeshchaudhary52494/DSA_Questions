@@ -19,3 +19,4 @@
 | SetOrUnSet        | Use `(num & (1 << i))` (left shift) or `((num >> i) & 1)` (right shift).                      | O(1)                  | O(1)                  |
 | SetBit            | Use formula `(num | (1 << i))`, as `0 | 0 = 0` and `0 | 1 = 1`.                               | O(1)                  | O(1)                  |
 | ClearBit          | Use formula `(num & ~(1 << i))`                                                               | O(1)                  | O(1)                  |
+| ToggleBit         | Use formula `(num ^ (1 << i))`                                                                | O(1)                  | O(1)                  |
