@@ -9,3 +9,6 @@
 
 # Sorting algorithms:
 1. Selection: Select the miniMum or maxiMum element from the array and swap with the starting index
+
+# Bit manipulation:
+1. DecimalToBinary: find remainder using num%2 and add to string then num/2.
