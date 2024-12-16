@@ -11,7 +11,10 @@
 1. Selection: Select the miniMum or maxiMum element from the array and swap with the starting index
 
 # Bit manipulation:
-1. DecimalToBinary: find remainder using num%2 and add to string then num/2.
-2. BinaryToDecimal: traverse from right to left, calculate base and add to the num.
-3. SwapTwoNum: swap two numbers uaing XOR as a^a = 0 -> a^b^a = b 
-4. SetOrUnSet: use formula (num & (i<<i)) with left shift and ((num>>i) & i) with right shift operator, if result = 0 then unset else set as 0 & 1 = 0.
+| Problem          | Description                                                                                   | Time Complexity       | Space Complexity      |
+|-------------------|-----------------------------------------------------------------------------------------------|-----------------------|------------------------|
+| DecimalToBinary   | Find remainder using `num % 2` and add to string, then divide `num` by 2 (`num / 2`).         | O(log₂(num))          | O(log₂(num))          |
+| BinaryToDecimal   | Traverse from right to left, calculate the base (powers of 2) and add to the number.          | O(n)                  | O(1)                  |
+| SwapTwoNum        | Swap two numbers using XOR as `a^a = 0`, hence `a^b^a = b`.                                   | O(1)                  | O(1)                  |
+| SetOrUnSet        | Use `(num & (1 << i))` (left shift) or `((num >> i) & 1)` (right shift).                      | O(1)                  | O(1)                  |
+| setBit            | Use formula `(num | (1 << i))`, as `0 | 0 = 0` and `0 | 1 = 1`.                               | O(1)                  | O(1)                  |
