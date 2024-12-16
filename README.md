@@ -14,3 +14,4 @@
 1. DecimalToBinary: find remainder using num%2 and add to string then num/2.
 2. BinaryToDecimal: traverse from right to left, calculate base and add to the num.
 3. SwapTwoNum: swap two numbers uaing XOR as a^a = 0 -> a^b^a = b 
+4. SetOrUnSet: use formula (num & (i<<i)) with left shift and ((num>>i) & i) with right shift operator, if result = 0 then unset else set as 0 & 1 = 0.
