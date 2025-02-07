@@ -1,4 +1,4 @@
-class minBitFlips {
+class MinBitFlips {
     public int minBitFlips(int start, int goal) {
         int ans = start ^ goal;
         return Integer.bitCount(ans);
